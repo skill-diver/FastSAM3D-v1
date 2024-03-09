@@ -40,9 +40,14 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 ---
 
-##  Features
+## Features
 
-<code>► INSERT-TEXT-HERE</code>
+- **High-Speed Inference**: Achieves rapid inference on 128x128x128 volumetric images in just 8 milliseconds when using an NVIDIA A100 GPU.
+- **Cutting-Edge Model Efficiency**: Utilizes layer-wise progressive distillation to transfer knowledge from a 12-layer ViT-B to a more compact 6-layer ViT-Tiny, reducing model complexity without sacrificing performance.
+- **Robust Performance**: Delivers competitive Dice scores across diverse datasets, demonstrating reliable segmentation results that are consistent with more computationally intensive models.
+- **Interactivity**: Designed for interactive use, FastSAM3D allows for iterative user input to refine segmentation outputs, enhancing user engagement and control over the segmentation process.
+- **Resource Efficiency**: Dramatically cuts down on computational costs with reduced FLOPs and memory usage, offering a significant speedup of 527.38× over 2D SAMs and 8.75× over 3D SAMs.
+
 
 ---
 
@@ -214,7 +219,7 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 **System Requirements:**
 
-* **Python**: `version x.y.z`
+* **Python**: `version 3.9 or above`
 
 ###  Installation
 
