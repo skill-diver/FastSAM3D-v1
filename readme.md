@@ -269,18 +269,10 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 >    $ ./validation_student.sh
 >    ```
 
-###  Tests
 
-> Run the test suite using the command below:
-> ```console
-> $ pytest
-> ```
+##  Checkpoint
 
----
-
-##  Project Roadmap
-
-- [X] `► INSERT-TASK-1`
+- [X] `► [student_checkpoint`](https://drive.google.com/file/d/1-rvRh1VYeBSWmAqNUS-9lKomtiaNXCL8/view?usp=sharing)
 - [ ] `► INSERT-TASK-2`
 - [ ] `► ...`
 
