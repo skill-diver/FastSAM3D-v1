@@ -245,10 +245,29 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 <h4>From <code>source</code></h4>
 
-> Run FastSAM3D-v1 using the command below:
-> ```console
-> $ python main.py
-> ```
+> 1. **Train the Teacher Model and Prepare Labels**
+>    Use the command below to train the teacher model and prepare labels for guided distillation to the student model:
+>    ```console
+>    $ ./preparelabel.sh
+>    ```
+>
+> 2. **Distill the Model**
+>    To distill the model, run the following command. The distilled checkpoint will be stored in `work_dir`:
+>    ```console
+>    $ ./distillation.sh
+>    ```
+>
+> 3. **Validate the Teacher Model**
+>    Validate the teacher model using the command below:
+>    ```console
+>    $ ./infer.sh
+>    ```
+>
+> 4. **Validate the Student Model**
+>    Finally, to validate the student model after distillation, execute:
+>    ```console
+>    $ ./validation_student.sh
+>    ```
 
 ###  Tests
 
