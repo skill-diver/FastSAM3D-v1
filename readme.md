@@ -201,9 +201,13 @@ This project is protected under the [Apache 2.0 license](LICENSE).
 
 ---
 
-##  Acknowledgments
+## 🙏 Acknowledgement
+- We thank all medical workers and dataset owners for making public datasets available to the community.
+- Thanks to the open-source of the following projects:
+  - [Segment Anything](https://github.com/facebookresearch/segment-anything) &#8194;
+  - [SAM-Med3D]([https://github.com/OpenGVLab/SAM-Med2D/tree/main](https://github.com/uni-medical/SAM-Med3D)https://github.com/uni-medical/SAM-Med3D)
 
-- .
+---
 
 [**Return**](#-overview)
 
