@@ -100,24 +100,24 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 | File                                                                                                   | Summary                         |
 | ---                                                                                                    | ---                             |
-| [distillation.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/distillation.sh)             | <code>► INSERT-TEXT-HERE</code> |
-| [sum_result.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/sum_result.py)                 | <code>► INSERT-TEXT-HERE</code> |
-| [train.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train.py)                           | <code>► INSERT-TEXT-HERE</code> |
-| [infer_med2d.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/infer_med2d.sh)               | <code>► INSERT-TEXT-HERE</code> |
-| [requirements.txt](https://github.com/skill-diver/FastSAM3D-v1/blob/master/requirements.txt)           | <code>► INSERT-TEXT-HERE</code> |
-| [infer_sam.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/infer_sam.sh)                   | <code>► INSERT-TEXT-HERE</code> |
-| [prepare_label.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/prepare_label.sh)           | <code>► INSERT-TEXT-HERE</code> |
-| [validation_student.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/validation_student.py) | <code>► INSERT-TEXT-HERE</code> |
-| [preparelabel.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/preparelabel.py)             | <code>► INSERT-TEXT-HERE</code> |
-| [val_2d.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/val_2d.py)                         | <code>► INSERT-TEXT-HERE</code> |
-| [train_unfreeze.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train_unfreeze.sh)         | <code>► INSERT-TEXT-HERE</code> |
-| [train_unfreeze.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train_unfreeze.py)         | <code>► INSERT-TEXT-HERE</code> |
-| [validation.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/validation.py)                 | <code>► INSERT-TEXT-HERE</code> |
-| [=0.2.25](https://github.com/skill-diver/FastSAM3D-v1/blob/master/=0.2.25)                             | <code>► INSERT-TEXT-HERE</code> |
-| [distillation.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/distillation.py)             | <code>► INSERT-TEXT-HERE</code> |
-| [preparelabel1.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/preparelabel1.py)           | <code>► INSERT-TEXT-HERE</code> |
-| [train.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train.sh)                           | <code>► INSERT-TEXT-HERE</code> |
-| [infer.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/infer.sh)                           | <code>► INSERT-TEXT-HERE</code> |
+| [distillation.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/distillation.sh)             | <code>► distillation part</code> |
+| [sum_result.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/sum_result.py)                 | <code>► result</code> |
+| [train.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train.py)                           | <code>► used for fine-tuning</code> |
+| [infer_med2d.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/infer_med2d.sh)               | <code>► validation med 2d</code> |
+| [requirements.txt](https://github.com/skill-diver/FastSAM3D-v1/blob/master/requirements.txt)           
+| [infer_sam.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/infer_sam.sh)                   | <code>► validation for sam</code> |
+| [prepare_label.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/prepare_label.sh)           | <code>► prepare label for teachermodel</code> |
+| [validation_student.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/validation_student.py) 
+| [preparelabel.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/preparelabel.py)             
+| [val_2d.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/val_2d.py)                        
+| [train_unfreeze.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train_unfreeze.sh)         
+| [train_unfreeze.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train_unfreeze.py)        
+| [validation.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/validation.py)                
+| [=0.2.25](https://github.com/skill-diver/FastSAM3D-v1/blob/master/=0.2.25)                            
+| [distillation.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/distillation.py)             
+| [preparelabel1.py](https://github.com/skill-diver/FastSAM3D-v1/blob/master/preparelabel1.py)           
+| [train.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/train.sh)                          
+| [infer.sh](https://github.com/skill-diver/FastSAM3D-v1/blob/master/infer.sh)                           
 
 </details>
 
