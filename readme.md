@@ -270,13 +270,11 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 >    ```
 
 
-##  Checkpoint
 
-- [X] `► [student_checkpoint`](https://drive.google.com/file/d/1-rvRh1VYeBSWmAqNUS-9lKomtiaNXCL8/view?usp=sharing)
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
+## Checkpoint
 
----
+| FASTSAM3D | [Download]([https://drive.google.com/file/d/1PFeUjlFMAppllS9x1kAWyCYUJM9re2Ub/view?usp=drive_link](https://drive.google.com/file/d/1-rvRh1VYeBSWmAqNUS-9lKomtiaNXCL8/view?usp=sharing)) |
+| Finetuned-FASTSAM3D    | [Download]([https://drive.google.com/file/d/1kKpjIwCsUWQI-mYZ2Lww9WZXuJxc3FvU/view?usp=sharing](https://drive.google.com/file/d/1bL-Q1zxYGwjBylnC9QmXRL-WhST3ti2T/view?usp=sharing)) | 
 
 ##  Contributing
 
