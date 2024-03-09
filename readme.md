@@ -146,9 +146,9 @@ Below are the links to the checkpoints for FastSAM3D and its fine-tuned version:
 
 | Model                | Download Link |
 |----------------------|---------------|
-| FASTSAM3D            | [Download](https://drive.google.com/file/d/1-rvRh1VYeBSWmAqNUS-9lKomtiaNXCL8/view?usp=sharing) |
+| student checkpoint            | [Download](https://drive.google.com/file/d/1-rvRh1VYeBSWmAqNUS-9lKomtiaNXCL8/view?usp=sharing) |
 | Finetuned-FASTSAM3D  | [Download](https://drive.google.com/file/d/1bL-Q1zxYGwjBylnC9QmXRL-WhST3ti2T/view?usp=sharing) |
-
+| FASTSAM3D  | [Download](https://drive.google.com/file/d/1vmtqWzERvnGVwZVSSMpw_fE0zGHL_4QP/view?usp=sharing) |
 
 ##  Contributing
 
