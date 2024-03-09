@@ -2,16 +2,6 @@
     <h1 align="center">FASTSAM3D-V1</h1>
 </p>
 
-<p align="center">
-	<img src="https://img.shields.io/github/license/skill-diver/FastSAM3D-v1?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/skill-diver/FastSAM3D-v1?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/skill-diver/FastSAM3D-v1?style=default&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/skill-diver/FastSAM3D-v1?style=default&color=0080ff" alt="repo-language-count">
-<p>
-<p align="center">
-	<!-- default option, no dependency badges. -->
-</p>
-
 <br><!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary><br>
