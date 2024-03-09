@@ -1,9 +1,7 @@
 <p align="center">
     <h1 align="center">FASTSAM3D-V1</h1>
 </p>
-<p align="center">
-    <em><code>► INSERT-TEXT-HERE</code></em>
-</p>
+
 <p align="center">
 	<img src="https://img.shields.io/github/license/skill-diver/FastSAM3D-v1?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/skill-diver/FastSAM3D-v1?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
