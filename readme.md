@@ -90,8 +90,8 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 * **Python**: `version 3.9 or above`
 * **CUDA**: `version 12.1`
-* **FLASH Attention support GPU**: 'Ampere, Ada, or Hopper GPUs (e.g., A100, RTX 3090, RTX 4090, H100). Support for Turing GPUs (T4, RTX 2080) is coming soon, please use FlashAttention 1.x for Turing GPUs for now.
-Datatype fp16 and bf16 (bf16 requires Ampere, Ada, or Hopper GPUs).'
+* **FLASH Attention support GPU**: `Ampere, Ada, or Hopper GPUs (e.g., A100, RTX 3090, RTX 4090, H100). Support for Turing GPUs (T4, RTX 2080) is coming soon, please use FlashAttention 1.x for Turing GPUs for now.
+Datatype fp16 and bf16 (bf16 requires Ampere, Ada, or Hopper GPUs).`
 
 ###  Installation
 
