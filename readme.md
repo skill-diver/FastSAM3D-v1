@@ -155,7 +155,10 @@ Below are the links to the checkpoints for FastSAM3D and its fine-tuned version:
 | FASTSAM3D            | [Download](https://drive.google.com/uc?export=download&id=1vmtqWzERvnGVwZVSSMpw_fE0zGHL_4QP) |
 
 ---
-
+##  Visualize
+<div align="center">
+  <img src="assets/visualize.png">
+</div>
 ##  Contributing
 
 Contributions are welcome! Here are several ways you can contribute:
