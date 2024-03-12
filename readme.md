@@ -26,7 +26,7 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 ---
 <div align="center">
-  <img src="asserts/model.pdf">
+  <img src="asserts/model.png">
 </div>
 ## Features
 
