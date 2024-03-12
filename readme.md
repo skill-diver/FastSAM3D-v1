@@ -89,7 +89,8 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 **System Requirements:**
 
 * **Python**: `version 3.9 or above`
-* **CUDA**: `version 3.9 or above`
+* **CUDA**: `version 12.1`
+* **FLASH Attention support GPU**: `A100`
 
 ###  Installation
 
@@ -116,25 +117,29 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 <h4>From <code>source</code></h4>
 
 > 1. **Train the Teacher Model and Prepare Labels**
+>
 >    Use the command below to train the teacher model and prepare labels for guided distillation to the student model, and put your data and checkpoint in the corresponding position of the shell script:
 >    ```console
 >    $ ./preparelabel.sh
 >    ```
 >
-> 2. **Distill the Model**
+> 3. **Distill the Model**
+>
 >    To distill the model, run the following command. The distilled checkpoint will be stored in `work_dir`, and put your data and checkpoint in the corresponding position of shell script:
 >    ```console
 >    $ ./distillation.sh
 >
 >    ```
 >
-> 3. **Validate the Teacher Model**
+> 5. **Validate the Teacher Model**
+>
 >    Validate the teacher model using the command below, and put your data and checkpoint in the corresponding position of shell script:
 >    ```console
 >    $ ./infer.sh
 >    ```
 >
-> 4. **Validate the Student Model**
+> 7. **Validate the Student Model**
+>
 >    Finally, to validate the student model after distillation, and put your data and checkpoint in the corresponding position of the shell script:
 >    ```console
 >    $ ./validation_student.sh
