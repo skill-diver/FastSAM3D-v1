@@ -1,7 +1,9 @@
 <p align="center">
     <h1 align="center">FASTSAM3D-V1</h1>
 </p>
-
+<div align="center">
+  <img src="asserts/model.png">
+</div>
 <br><!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary><br>
@@ -25,9 +27,6 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 
 ---
-<div align="center">
-  <img src="asserts/model.png">
-</div>
 ## Features
 
 - **High-Speed Inference**: Achieves rapid inference on 128x128x128 volumetric images in just 8 milliseconds when using an NVIDIA A100 GPU.
