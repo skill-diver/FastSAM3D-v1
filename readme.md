@@ -13,8 +13,6 @@
 - [ Getting Started](#-getting-started)
   - [ Installation](#-installation)
   - [ Usage](#-usage)
-  - [ Tests](#-tests)
-- [ Project Roadmap](#-project-roadmap)
 - [ Contributing](#-contributing)
 - [ License](#-license)
 - [ Acknowledgments](#-acknowledgments)
@@ -55,7 +53,6 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
     ├── preparelabel1.py
     ├── requirements.txt
     ├── segment_anything
-    │   ├── Dockerfile
     │   ├── __init__.py
     │   ├── automatic_mask_generator.py
     │   ├── build_ls_sam3d.py
@@ -90,8 +87,7 @@ FastSAM3D is an efficient "Segment Anything Model" (SAM) designed for 3D volumet
 
 * **Python**: `version 3.9 or above`
 * **CUDA**: `version 12.1`
-* **FLASH Attention support GPU**: `Ampere, Ada, or Hopper GPUs (e.g., A100, RTX 3090, RTX 4090, H100). Support for Turing GPUs (T4, RTX 2080) is coming soon, please use FlashAttention 1.x for Turing GPUs for now.
-Datatype fp16 and bf16 (bf16 requires Ampere, Ada, or Hopper GPUs).`
+* **FLASH Attention support GPU**: `Ampere, Ada, or Hopper GPUs (e.g., A100, RTX 3090, RTX 4090, H100).`
 
 ###  Installation
 
