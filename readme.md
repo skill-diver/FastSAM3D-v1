@@ -213,7 +213,3 @@ This project is protected under the [Apache 2.0 license](LICENSE).
   - [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D)
 
 ---
-
-[**Return**](#-overview)
-
----
