@@ -4,22 +4,7 @@
 <div align="center">
   <img src="asserts/model.png">
 </div>
-<br><!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary><br>
 
-- [ Overview](#-overview)
-- [ Features](#-features)
-- [ Repository Structure](#-repository-structure)
-- [ Modules](#-modules)
-- [ Getting Started](#-getting-started)
-  - [ Installation](#-installation)
-  - [ Usage](#-usage)
-- [ Contributing](#-contributing)
-- [ License](#-license)
-- [ Acknowledgments](#-acknowledgments)
-</details>
-<hr>
 
 ## Overview
 
