@@ -157,7 +157,7 @@ Below are the links to the checkpoints for FastSAM3D and its fine-tuned version:
 ---
 ##  Visualize
 <div align="center">
-  <img src="assets/visualize.png">
+  <img src="asserts/visualize.png">
 </div>
 ##  Contributing
 
