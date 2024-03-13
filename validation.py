@@ -19,27 +19,23 @@ import json
 import pickle
 from utils.click_method import get_next_click3D_torch_ritm, get_next_click3D_torch_2
 from utils.data_loader import Dataset_Union_ALL_Val
-import time
-from thop import profile
-from torchinfo import summary
-from monai.losses import DiceCELoss
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-tdp', '--test_data_path', type=str, default='/content/drive/MyDrive/lighting_sam_3d/data/process_train_data/brats2')
-parser.add_argument('-vp', '--vis_path', type=str, default='/content/drive/MyDrive/paper_visual_results/totalseg0441/sammed_new')
-parser.add_argument('-cp', '--checkpoint_path', type=str, default='/content/drive/MyDrive/lighting_sam_3d/ckpt/sam_vit_b_01ec64.pth')
-parser.add_argument('-sn', '--save_name', type=str, default='/content/drive/MyDrive/lighting_sam_3d/reb/originalsam_bratsnew.py')
+parser.add_argument('-tdp', '--test_data_path', type=str, default='data/totalseg0441')
+parser.add_argument('-vp', '--vis_path', type=str, default='results/totalseg0441/FastSAM3D')
+parser.add_argument('-cp', '--checkpoint_path', type=str, default='ckpt/FastSAM3D.pth')
+parser.add_argument('-sn', '--save_name', type=str, default='results/FastSAM3D.py')
 
 parser.add_argument('--image_size', type=int, default=1024)  #
 parser.add_argument('--crop_size', type=int, default=128)
 parser.add_argument('--device', type=str, default='cuda')
-parser.add_argument('-mt', '--model_type', type=str, default='vit_b')
+parser.add_argument('-mt', '--model_type', type=str, default='vit_b_ori')
 parser.add_argument('-nc', '--num_clicks', type=int, default=10)
 parser.add_argument('-pm', '--point_method', type=str, default='default')
 parser.add_argument('-dt', '--data_type', type=str, default='Tr')
 parser.add_argument("--encoder_adapter", type=bool, default=False, help="use adapter")
 parser.add_argument('--threshold', type=int, default=0)
-parser.add_argument('--dim', type=int, default=2)
+parser.add_argument('--dim', type=int, default=3)
 parser.add_argument('--split_idx', type=int, default=0)
 parser.add_argument('--split_num', type=int, default=1)
 parser.add_argument('--ft2d', action='store_true', default=False)
