@@ -53,11 +53,11 @@ class Dataset_Union_ALL(Dataset):
                 print(self.image_paths[index])
         
               
-        # save_dir = "/content/drive/MyDrive/paper_visual_results/brats00412"  # 指定保存目录
-        # os.makedirs(save_dir, exist_ok=True)  # 确保目录存在
+        # save_dir = "/content/drive/MyDrive/paper_visual_results/brats00412"  
+        # os.makedirs(save_dir, exist_ok=True)  
 
-        # # 转换PyTorch张量为NumPy数组，并保存图像
-        # image_np = subject.image.data.squeeze().numpy().astype(np.float32)  # 假设图像是单通道的
+        # 
+        # image_np = subject.image.data.squeeze().numpy().astype(np.float32)  
         # image_sitk = sitk.GetImageFromArray(image_np)
         # image_filename = os.path.basename(self.image_paths[index]).replace('.nii.gz', '_processed.nii.gz')
         # image_filepath = os.path.join(save_dir, image_filename)
@@ -138,7 +138,19 @@ class distillation_data(Dataset):
         for i in range(0,len(label)):
             label[i] = label[i].detach()
         return image.detach(), label
-
+        
+    # If you meet in place copy problem, you could use this _get_item_ method.
+    # def __getitem__(self, index):
+    #     image = torch.load(self.image_paths[index])
+    #     label = torch.load(self.label_paths[index])
+    #     detached_labels = []
+    #     for i in range(0,len(label)):
+    #         detached_labels.append(label[i].detach())
+    #         #label[i] = label[i].detach()
+    #         #label[i] = label[i].clone().detach()
+    #     label = detached_labels
+    #     return image.detach(), label
+        
     def _set_file_paths(self):
         self.image_paths = []
         self.label_paths = []

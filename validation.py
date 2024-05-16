@@ -5,7 +5,6 @@ from glob import glob
 import torch
 from segment_anything.build_sam3D import sam_model_registry3D
 from segment_anything.utils.transforms3D import ResizeLongestSide3D
-from originalsam.segment_anything.build_sam import sam_model_registry
 from tqdm import tqdm
 import argparse
 import SimpleITK as sitk
@@ -19,6 +18,8 @@ import json
 import pickle
 from utils.click_method import get_next_click3D_torch_ritm, get_next_click3D_torch_2
 from utils.data_loader import Dataset_Union_ALL_Val
+import timm
+import time
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-tdp', '--test_data_path', type=str, default='data/totalseg0441')
@@ -29,7 +30,7 @@ parser.add_argument('-sn', '--save_name', type=str, default='results/FastSAM3D.p
 parser.add_argument('--image_size', type=int, default=1024)  #
 parser.add_argument('--crop_size', type=int, default=128)
 parser.add_argument('--device', type=str, default='cuda')
-parser.add_argument('-mt', '--model_type', type=str, default='vit_b_ori')
+parser.add_argument('-mt', '--model_type', type=str, default='vit_b_original')
 parser.add_argument('-nc', '--num_clicks', type=int, default=10)
 parser.add_argument('-pm', '--point_method', type=str, default='default')
 parser.add_argument('-dt', '--data_type', type=str, default='Tr')
