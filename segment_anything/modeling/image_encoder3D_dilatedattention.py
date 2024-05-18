@@ -11,7 +11,6 @@ import time
 
 from typing import Optional, Tuple, Type
 from segment_anything.modeling.dilated_utils import XPOS, RelativePositionBias
-#from zeta.nn.attention.flash_attention import FlashAttention
 from flash_attn import flash_attn_qkvpacked_func, flash_attn_func
 
 
