@@ -300,9 +300,6 @@ class Attention(nn.Module):
         return x
 
 
-
-
-
 def window_partition3D(x: torch.Tensor, window_size: int) -> Tuple[torch.Tensor, Tuple[int, int, int]]:
     B, D, H, W, C = x.shape
 
