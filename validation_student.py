@@ -246,7 +246,7 @@ def finetune_model_predict2D(img3D, gt3D, sam_model_tune, target_size=256, click
 def finetune_model_predict3D(tiny_vit,img3D, gt3D, sam_model_tune, device='cuda', click_method='random', num_clicks=10, prev_masks=None):
     
     torch.cuda.reset_max_memory_allocated(device)
-    encoder_time = 0 #
+    encoder_time = 0 # this is just call the model spend time
     decoder_time = []
     img3D = norm_transform(img3D.squeeze(dim=1)) # (N, C, W, H, D)
     img3D = img3D.unsqueeze(dim=1)
